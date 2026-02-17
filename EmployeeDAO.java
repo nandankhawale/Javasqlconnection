@@ -9,7 +9,7 @@ public class EmployeeDAO {
 
     private String url = "jdbc:mysql://localhost:3307/testdb";
     private String username = "root";
-    private String password = "5royalking";
+    private String password = "";
 
     private Connection getConnection() throws Exception {
         Class.forName("com.mysql.cj.jdbc.Driver");
@@ -145,4 +145,5 @@ public class EmployeeDAO {
         return avg;
     }
 }
+
 
